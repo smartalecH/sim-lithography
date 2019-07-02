@@ -40,8 +40,8 @@ for curr_F in range(len(F)):
 plt.legend()
 plt.xlabel('x ($\mu$m)')
 plt.ylabel('y ($\mu$m)')
+plt.grid(True)
 plt.tight_layout()
 plt.savefig('feature_sizes.png')
-plt.grid(True)
 plt.show()
 
